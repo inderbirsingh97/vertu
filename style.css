@@ -17,7 +17,9 @@ body {
     background-color: #eeeff1 !important;
  }
 
-
+.bg-footer {
+    background-color: #43484d;
+}
 
 p {
   font-family: roboto;
@@ -67,3 +69,13 @@ p {
     margin-top: -18%;
     margin-left: 5%;
     max-width: 20%;
+}
+
+#copyright {
+    font-size: 0.8rem;
+}
+
+.footer-text {
+    color: #9fa7af;
+    font-size: 0.9rem;
+}
