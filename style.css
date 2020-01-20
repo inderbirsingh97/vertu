@@ -1,45 +1,63 @@
 @font-face {
-    font-family: 'roboto';
-    src: url(/fonts/Roboto-Thin.ttf);
-    font-style: normal;
-    font-weight: 100;
+  font-family: "roboto";
+  src: url(/fonts/Roboto-Thin.ttf);
+  font-style: normal;
+  font-weight: 100;
 }
 
 @font-face {
-    font-family: 'roboto';
-    src: url(/fonts/Roboto-Black.ttf);
-    font-style: normal;
-    font-weight: 600;
+  font-family: "roboto";
+  src: url(/fonts/Roboto-Black.ttf);
+  font-style: normal;
+  font-weight: 600;
 }
 
 p {
-    font-family: roboto;
-    font-weight: 100;
+  font-family: roboto;
+  font-weight: 100;
 }
 
 .nav-item {
-    font-family: roboto;
-    font-weight: 600;
+  font-family: roboto;
+  font-weight: 600;
 }
 
 .hero-top {
-    background-color: #003e78;
+  background-color: #003e78;
 }
 
 #hero-image {
-    background: url(/images/billboard.jpg);
+  background: url(/images/billboard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 50vh;
+  border-bottom-left-radius: .25rem!important;
+  border-bottom-right-radius: .25rem!important;
 }
 
-.btn-hero{
-    background-color: #017edb;
-    color: #fff;
+.btn-hero {
+  background-color: #017edb;
+  color: #fff;
 }
 
-.hero-overlay {
-    max-width: 40%;
-    background-color: rgba(197, 197, 197, 0.493);
-    /* margin-top: -30%; */
+.hero-overlay, .kyp_text {
+  max-width: 40%;
+  max-height: 40vh;
+  background-color: rgba(197, 197, 197, 0.493);
+  /* margin-top: 30%; */
+}
+@media query and (max-width: (450px)) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.kyp_text {
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 5%;
+    max-width: 20%;
 }
