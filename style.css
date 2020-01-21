@@ -264,6 +264,6 @@ p {
 @media (max-width: 320px) {
   .btn-font_size {
     font-size: 0.3rem !important;
-    padding: 0.3rem 0.4rem !important;
+    padding: 0.2rem 0.4rem !important;
   }
 }
