@@ -12,13 +12,13 @@
   font-weight: 600;
 }
 
-body { 
-    font-size: 1rem;
-    background-color: #eeeff1 !important;
- }
+body {
+  font-size: 1rem;
+  background-color: #eeeff1 !important;
+}
 
 .bg-footer {
-    background-color: #43484d;
+  background-color: #43484d;
 }
 
 p {
@@ -50,32 +50,220 @@ p {
   color: #fff;
 }
 
-.hero-overlay, .kyp_text {
-  max-width: 40%;
-  max-height: 40vh;
+.hero-overlay,
+.kyp_text {
+  /* max-width: 40%; */
+  /* max-height: 40vh; */
   background-color: rgba(255, 255, 255, 0.884);
   /* margin-top: 30%; */
 }
 
-.kyp_text{
-    position: absolute;
-    margin-top: -18%;
-    margin-left: 5%;
-    max-width: 20%;
+.kyp_text {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 5%;
+  max-width: 20%;
 }
-
-.hero-overlay{
-    position: absolute;
-    margin-top: -18%;
-    margin-left: 5%;
-    max-width: 20%;
+/* 
+.hero-overlay {
+  position: absolute;
+ margin-top: -370px; 
+  margin-left: 5%;
+  max-width: 20%;
 }
-
+*/
 #copyright {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .footer-text {
-    color: #9fa7af;
+  color: #9fa7af;
+  font-size: 0.9rem;
+}
+
+/* @media (min-width: 1200px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 5%;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 5%;
+    max-width: 300px;
+    max-height: 31vh;
     font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 5%;
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 576px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 5%;
+    max-width: 20%;
+  }
+} */
+
+@media (max-width: 2560px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 50px;
+    max-width: 430px;
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 1440px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 50px;
+    max-width: 430px;
+    max-height: 31vh;
+    font-size: 0.9rem;
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 40px;
+    max-width: 300px;
+    max-height: 31vh;
+    font-size: 0.9rem;
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .btn-font_size {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 0px;
+    max-width: 290px;
+    max-height: 30vh;
+    font-size: 0.8rem;
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 992) {
+  .btn-font_size {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -165px;
+    margin-left: 0px;
+    max-width: 230px;
+    max-height: 30vh;
+    font-size: 0.5rem;
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn-font_size {
+    font-size: 0.5rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -155px;
+    margin-left: -10px;
+    max-width: 230px;
+    max-height: 30vh;
+    font-size: 0.5rem;
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn-font_size {
+    font-size: 0.5rem !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -135px;
+    margin-left: -6px;
+    max-width: 180px;
+    max-height: 27vh;
+    font-size: 0.4rem;
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .btn-font_size {
+    font-size: 0.4rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -117px;
+    margin-left: -7px;
+    max-width: 160px;
+    max-height: 115px;
+    font-size: 0.4rem;
+    padding: 0.5rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn-font_size {
+    font-size: 0.4rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero-overlay {
+    position: absolute;
+    margin-top: -102px;
+    margin-left: -10px;
+    max-width: 136px;
+    max-height: 115px;
+    font-size: 0.3rem;
+    padding: 0.3rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .btn-font_size {
+    font-size: 0.3rem !important;
+    padding: 0.3rem 0.4rem !important;
+  }
 }
