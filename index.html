@@ -18,7 +18,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-xl navbar-light container">
-      <a class="navbar-brand mr-auto border-right" href="#">
+      <a class="navbar-brand border-right" href="#">
         <img src="/images/logo.png" width="60%" alt="logo" />
       </a>
       <button
@@ -32,7 +32,6 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item p-2 active">
@@ -156,7 +155,6 @@
             >
           </li>
         </ul>
-        <!-- Tab panes -->
         <div class="tab-content">
           <div
             class="tab-pane active"
@@ -165,31 +163,6 @@
             aria-labelledby="dimensions-tab"
           >
             <div class="row my-3">
-              <!-- <div class="col-md-2 col-sm-4">
-                <div class="col-4 text-white"> .</div>
-                <div class="col-4">Entry height</div>
-                <div class="col-4">Ramp length</div>
-                <div class="col-4">Ramp width</div>
-                <div class="col-4">Channel length</div>
-                <div class="col-4">External height</div>
-                <div class="col-4">External length</div>
-              </div>
-              <div class="col-md-2 col-sm-4">
-                <div class="col-4">1,373mm</div>
-                <div class="col-4">1,010mm</div>
-                <div class="col-4">755mm</div>
-                <div class="col-4">1,580mm</div>
-                <div class="col-4">1,852mm</div>
-                <div class="col-4">4,418mm</div>
-              </div>
-              <div class="col-md-2 col-sm-4">
-                <div class="col-4">1,373mm</div>
-                <div class="col-4">1,010mm</div>
-                <div class="col-4">755mm</div>
-                <div class="col-4">1,580mm</div>
-                <div class="col-4">1,845mm</div>
-                <div class="col-4">4,818mm</div>
-              </div> -->
               <div class="col-md-6">
                 <img src="/images/table.png" class="img-fluid" />
               </div>
@@ -308,39 +281,6 @@
                       </div>
                     </div>
                   </div>
-                  <!-- <div class="row">
-                    <ul
-                      class="nav nav-pills nav-fill"
-                      id="colourTab"
-                      role="tablist"
-                    >
-                      <li class="nav-item">
-                        <a
-                          class="nav-link font_size text-dark active"
-                          id="non-metallic-tab"
-                          data-toggle="tab"
-                          href="#non-metallic"
-                          role="tab"
-                          aria-controls="non-metallic"
-                          aria-selected="true"
-                          >Non-Metallic</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          class="nav-link font_size text-dark"
-                          id="metallic-tab"
-                          data-toggle="tab"
-                          href="#metallic"
-                          role="tab"
-                          aria-controls="metallic"
-                          aria-selected="false"
-                          >Metallic</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                  <br /> -->
                   <div class="col text-center my-4">
                     <button type="button" class="btn btn-hero">
                       View our Versa Connect offers
@@ -361,19 +301,19 @@
               </div>
               <div class="row mt-3 mx-1">
                 <div class="col-md">
-                  <img src="/images/trim2.jpg" class="img-fluid" />
+                  <img src="/images/trim2.jpg" class="img-fluid trims" />
                   <div class="p mt-2">Titanium</div>
                   <div class="p">Insert: Chicane in Medium Stone</div>
                   <div class="p">Bolster: Malt in Medium Store</div>
                 </div>
                 <div class="col-md">
-                  <img src="/images/trim3.jpg" class="img-fluid" />
+                  <img src="/images/trim3.jpg" class="img-fluid trims" />
                   <div class="p mt-2">Zetec</div>
                   <div class="p">Insert: Route in Charcoal Black</div>
                   <div class="p">Bolster: Max in Charcoal Black</div>
                 </div>
                 <div class="col-md">
-                  <img src="/images/trim4.jpg" class="img-fluid" />
+                  <img src="/images/trim4.jpg" class="img-fluid trims" />
                   <div class="p mt-2">Titanium</div>
                   <div class="p">Insert: Chicane in Charcoal Black</div>
                   <div class="p">Bolster: Malt in Charcoal Black</div>
@@ -394,6 +334,11 @@
           class="container carousel slide mb-5"
           data-ride="carousel"
         >
+        <ol class="carousel-indicators">
+          <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselControls" data-slide-to="1"></li>
+          <li data-target="#carouselControls" data-slide-to="2"></li>
+        </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
@@ -490,7 +435,7 @@
         </div>
       </div>
 
-      <div id="footer" class="container mb-5">
+      <div id="footer" class="container">
         <div class="bg-footer pt-5">
           <div class="row">
             <div class="col-md footer-text mx-5 mt-4">
