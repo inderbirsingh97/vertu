@@ -472,6 +472,10 @@ p {
       font-size: 0.4rem !important;
     }
 
+    .nav_font_size {
+      font-size: 0.8rem !important;
+    }
+
     .hero-top-text {
       padding-left: 0.8rem !important;
       padding-right: 0.8rem !important;
