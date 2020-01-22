@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
@@ -31,6 +32,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item p-2 active">
@@ -57,110 +59,113 @@
     <div id="hero">
       <div class="container">
         <div class="hero-top text-white rounded-top">
-          <div class="container">
-            <div class="d-flex">
-              <div class="py-3 mr-auto">
-                Versa Connect
-              </div>
-              <div class="px-4 py-3">
-                <a href="#" class="text-white">Overview</a>
-              </div>
-              <div class="px-4 py-3">
-                <a href="#" class="text-white">Offers</a>
-              </div>
-              <div class="px-4 py-3">
-                <a href="#" class="text-white">Models</a>
-              </div>
-              <div class="px-4 py-3">
-                <a href="#" class="text-white">Optional Extras</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="hero-image" class="container">
-        <img src="/images/billboard.jpg" class="img-fluid rounded-bottom" />
-        <div class="container">
-          <div class="hero-overlay rounded p-2">
-            <div>
+          <div class="d-flex">
+            <div class="hero-top-text font_size px-4 py-3 mr-auto">
               Versa Connect
             </div>
-            <div class="py-2">
-              "The Ford Tourneo Connect is a relaxing and comfortable place to
-              be. Great to drive, great to sit in, it boasts premium finishes,
-              high quality materials and fuel efficiency without compromising
-              everyday practicality."
+            <div class="px-4 py-3 hero-top-text overview font_size">
+              <a href="#" class="text-white">Overview</a>
             </div>
-            <button type="button" class="btn btn-hero btn-font_size btn-block">
-              Make an enquiry
-            </button>
+            <div class="px-4 py-3 hero-top-text font_size">
+              <a href="#" class="text-white">Offers</a>
+            </div>
+            <div class="px-4 py-3 hero-top-text font_size">
+              <a href="#" class="text-white">Models</a>
+            </div>
+            <div class="px-4 py-3 hero-top-text font_size">
+              <a href="#" class="text-white">Optional Extras</a>
+            </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div id="details" class="mt-5">
-        <div class="container">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                id="dimensions-tab"
-                data-toggle="tab"
-                href="#dimensions"
-                role="tab"
-                aria-controls="dimensions"
-                aria-selected="true"
-                >Dimensions</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                id="layouts-tab"
-                data-toggle="tab"
-                href="#layouts"
-                role="tab"
-                aria-controls="layouts"
-                aria-selected="false"
-                >Vehicle Layouts</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                id="colour-tab"
-                data-toggle="tab"
-                href="#colour"
-                role="tab"
-                aria-controls="colour"
-                aria-selected="false"
-                >Colour</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                id="interior-tab"
-                data-toggle="tab"
-                href="#interior"
-                role="tab"
-                aria-controls="interior"
-                aria-selected="false"
-                >Interior Trim</a
-              >
-            </li>
-          </ul>
-          <!-- Tab panes -->
-          <div class="tab-content">
-            <div
-              class="tab-pane active"
-              id="dimensions"
-              role="tabpanel"
-              aria-labelledby="dimensions-tab"
+    <div id="hero-image" class="container">
+      <img src="/images/billboard.jpg" class="img-fluid rounded-bottom" />
+      <div class="container">
+        <div class="hero-overlay rounded p-2">
+          <div class="h4 font_size">
+            Versa Connect
+          </div>
+          <div class="py-2">
+            "The Ford Tourneo Connect is a relaxing and comfortable place to be.
+            Great to drive, great to sit in, it boasts premium finishes, high
+            quality materials and fuel efficiency without compromising everyday
+            practicality."
+          </div>
+          <button type="button" class="btn btn-hero btn-font_size btn-block">
+            Make an enquiry
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="details" class="mt-5">
+      <div class="container">
+        <ul
+          class="nav nav-pills nav-fill border"
+          id="detailsTab"
+          role="tablist"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link font_size text-dark active"
+              id="dimensions-tab"
+              data-toggle="tab"
+              href="#dimensions"
+              role="tab"
+              aria-controls="dimensions"
+              aria-selected="true"
+              >Dimensions</a
             >
-              <div class="row my-2">
-                <!-- <div class="col-md-2 col-sm-4">
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link font_size text-dark"
+              id="layouts-tab"
+              data-toggle="tab"
+              href="#layouts"
+              role="tab"
+              aria-controls="layouts"
+              aria-selected="false"
+              >Vehicle Layouts</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link font_size  text-dark"
+              id="colour-tab"
+              data-toggle="tab"
+              href="#colour"
+              role="tab"
+              aria-controls="colour"
+              aria-selected="false"
+              >Colour</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link font_size text-dark"
+              id="interior-tab"
+              data-toggle="tab"
+              href="#interior"
+              role="tab"
+              aria-controls="interior"
+              aria-selected="false"
+              >Interior Trim</a
+            >
+          </li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div
+            class="tab-pane active"
+            id="dimensions"
+            role="tabpanel"
+            aria-labelledby="dimensions-tab"
+          >
+            <div class="row my-3">
+              <!-- <div class="col-md-2 col-sm-4">
                 <div class="col-4 text-white"> .</div>
                 <div class="col-4">Entry height</div>
                 <div class="col-4">Ramp length</div>
@@ -185,76 +190,189 @@
                 <div class="col-4">1,845mm</div>
                 <div class="col-4">4,818mm</div>
               </div> -->
-                <div class="col-md-6">
-                  <img src="/images/table.png" class="img-fluid" />
-                </div>
-                <div class="col-md-6">
-                  <br />
-                  <img src="/images/dimensions.jpg" class="img-fluid" />
-                </div>
-                <div class="col text-center my-4">
-                  <button type="button" class="btn btn-hero">
-                    View our Versa Connect offers
-                  </button>
+              <div class="col-md-6">
+                <img src="/images/table.png" class="img-fluid" />
+              </div>
+              <div class="col-md-6">
+                <br />
+                <img src="/images/dimensions.jpg" class="img-fluid" />
+              </div>
+              <div class="col text-center my-4">
+                <button type="button" class="btn btn-hero">
+                  View our Versa Connect offers
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane"
+            id="layouts"
+            role="tabpanel"
+            aria-labelledby="layouts-tab"
+          >
+            <div class="row my-3">
+              <div class="col-12 my-3">
+                Short (based on Ford Tourneo Connect)
+              </div>
+              <div class="col-12 my-3">
+                <img src="/images/vh1.jpg" class="img-fluid" />
+              </div>
+              <div class="col-12 my-3">
+                Long (based on Ford Tourneo Grand Connect)
+              </div>
+              <div class="col-12 my-3">
+                <img src="/images/vh2.jpg" class="img-fluid" />
+              </div>
+              <div class="col-12 my-3">
+                * Wheelchair user can sit a little further forward (not as
+                foeward as Row 2 seats)
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane"
+            id="colour"
+            role="tabpanel"
+            aria-labelledby="colour-tab"
+          >
+            <div class="container my-3">
+              <div class="container">
+                <div class="row">
+                  <div class="img_container">
+                    <img
+                      src="/images/red.png"
+                      alt="Red"
+                      class="img-fluid img_red"
+                    />
+                    <img
+                      src="/images/BlazerBlue.png"
+                      alt="Blazer Blue"
+                      class="img-fluid img_BlazerBlue"
+                    />
+                    <img
+                      src="/images/black.png"
+                      alt="Black"
+                      class="img-fluid img_black"
+                    />
+                    <img
+                      src="/images/DeepImpactBlue.png"
+                      alt="Deep Impact Blue"
+                      class="img-fluid img_DeepImpactBlue"
+                    />
+                    <img
+                      src="/images/Guard.png"
+                      alt="Guard"
+                      class="img-fluid img_Guard"
+                    />
+                    <img
+                      src="/images/Magnetic.png"
+                      alt="Magnetic"
+                      class="img-fluid img_Magnetic"
+                    />
+                    <img
+                      src="/images/Metalicious.png"
+                      alt="Metalicious"
+                      class="img-fluid img_Metalicious"
+                    />
+                    <img
+                      src="/images/Silver.png"
+                      alt="Silver"
+                      class="img-fluid img_Silver"
+                    />
+                    <img
+                      src="/images/Solar.png"
+                      alt="Solar"
+                      class="img-fluid img_Solar"
+                    />
+                  </div>
+                  <div class="row">
+                    <div class="circle circle_Silver"></div>
+                    <div class="circle circle_Metalicious"></div>
+                    <div class="circle circle_red"></div>
+                    <div class="circle circle_BlazerBlue"></div>
+                    <div class="circle circle_black"></div>
+                    <div class="circle circle_DeepImpactBlue"></div>
+                    <div class="circle circle_Guard"></div>
+                    <div class="circle circle_Magnetic"></div>
+                    <div class="circle circle_Solar"></div>
+                  </div>
+                  <div class="container">
+                    <div class="row text-center">
+                      <div class="col-sm-4">
+                        Non-metallic
+                        <hr />
+                      </div>
+                      <div class="col-sm-8">
+                        Metallic
+                        <hr />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="row">
+                    <ul
+                      class="nav nav-pills nav-fill"
+                      id="colourTab"
+                      role="tablist"
+                    >
+                      <li class="nav-item">
+                        <a
+                          class="nav-link font_size text-dark active"
+                          id="non-metallic-tab"
+                          data-toggle="tab"
+                          href="#non-metallic"
+                          role="tab"
+                          aria-controls="non-metallic"
+                          aria-selected="true"
+                          >Non-Metallic</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link font_size text-dark"
+                          id="metallic-tab"
+                          data-toggle="tab"
+                          href="#metallic"
+                          role="tab"
+                          aria-controls="metallic"
+                          aria-selected="false"
+                          >Metallic</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <br /> -->
+                  <div class="col text-center my-4">
+                    <button type="button" class="btn btn-hero">
+                      View our Versa Connect offers
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div
-              class="tab-pane"
-              id="layouts"
-              role="tabpanel"
-              aria-labelledby="layouts-tab"
-            >
-              <div class="row">
-                <div class="col-12 my-3">
-                  Short (based on Ford Tourneo Connect)
-                </div>
-                <div class="col-12 my-3">
-                  <img src="/images/vh1.jpg" class="img-fluid" />
-                </div>
-                <div class="col-12 my-3">
-                  Long (based on Ford Tourneo Grand Connect)
-                </div>
-                <div class="col-12 my-3">
-                  <img src="/images/vh2.jpg" class="img-fluid" />
-                </div>
-                <div class="col-12 my-3">
-                  * Wheelchair user can sit a little further forward (not as
-                  foeward as Row 2 seats)
-                </div>
-              </div>
-            </div>
-            <div
-              class="tab-pane"
-              id="colour"
-              role="tabpanel"
-              aria-labelledby="colour-tab"
-            >
-              d
-            </div>
+          </div>
             <div
               class="tab-pane"
               id="interior"
               role="tabpanel"
               aria-labelledby="interior-tab"
             >
-              <div class="col-12 m-2">
+              <div class="col-12 my-3">
                 <img src="/images/trim1.jpg" class="img-fluid" />
               </div>
-              <div class="row">
-                <div class="col-md m-2 ml-4">
+              <div class="row mt-3 mx-1">
+                <div class="col-md">
                   <img src="/images/trim2.jpg" class="img-fluid" />
                   <div class="p mt-2">Titanium</div>
                   <div class="p">Insert: Chicane in Medium Stone</div>
                   <div class="p">Bolster: Malt in Medium Store</div>
                 </div>
-                <div class="col-md m-2 ml-sm-4">
+                <div class="col-md">
                   <img src="/images/trim3.jpg" class="img-fluid" />
                   <div class="p mt-2">Zetec</div>
                   <div class="p">Insert: Route in Charcoal Black</div>
                   <div class="p">Bolster: Max in Charcoal Black</div>
                 </div>
-                <div class="col-md m-2 ml-sm-4">
+                <div class="col-md">
                   <img src="/images/trim4.jpg" class="img-fluid" />
                   <div class="p mt-2">Titanium</div>
                   <div class="p">Insert: Chicane in Charcoal Black</div>
@@ -344,58 +462,67 @@
           not travelling, a huge and easuly accesible boot space is created
           making the Versa Connect even more practical.
         </div>
+        <div class="col text-center my-4">
+          <button type="button" class="btn btn-hero">
+            View our Versa Connect offers
+          </button>
+        </div>
       </div>
 
       <div id="motivation" class="container mt-5">
         <div class="img">
           <img src="/images/motivation.jpg" class="img-fluid" />
         </div>
-        <!-- <div class="kyp_text p-4">
-          <div class="h4">
+        <div class="kyp_overlay rounded p-4">
+          <div class="h4 font_size">
             Keeping you going
           </div>
-          <div class="p my-3">
-            At Bristol Street Versa our priority is to offer so much more than just the sale of a Wheelchair Acessible Vehicle
-            (WAV). We recognise that the lives of the majority of our customers aren't always plain sailing - and that's why
-            we are committed to step in to make sure we are #KeepingYouGoing.
+          <div class="p font_size kyp_text my-3">
+            At Bristol Street Versa our priority is to offer so much more than
+            just the sale of a Wheelchair Acessible Vehicle (WAV). We recognise
+            that the lives of the majority of our customers aren't always plain
+            sailing - and that's why we are committed to step in to make sure we
+            are #KeepingYouGoing.
           </div>
-          <button type="button" class="btn btn-hero btn-block">More information</button>
-        </div> -->
+          <button type="button" class="btn btn-hero btn-block btn-font_size">
+            More information
+          </button>
+        </div>
       </div>
 
       <div id="footer" class="container mb-5">
         <div class="bg-footer pt-5">
           <div class="row">
-            <div class="col-6 footer-text mx-5 mt-4">
+            <div class="col-md footer-text mx-5 mt-4">
               If you are looking for a new or used Wheelchair Accessible Vehicle
               (WAV), then Bristol Street Vera is the best place to start.
             </div>
             <div class="row mx-5">
-              <div class="col-md my-1">
+              <div class="col col-md my-1">
                 <div class="p my-2">
-                  <a class="text-white text-underline" href="#">Home</a>
+                  <a class="text-white footer-text" href="#">Home</a>
                 </div>
                 <div class="p my-2">
-                  <a class="text-white text-underline" href="#">New Vehicles</a>
+                  <a class="text-white footer-text" href="#">New Vehicles</a>
                 </div>
                 <div class="p my-2">
-                  <a class="text-white text-underline" href="#">Motability</a>
+                  <a class="text-white footer-text" href="#">Motability</a>
                 </div>
               </div>
-              <div class="col-md my-1">
+              <div class="col-md col my-1">
                 <div class="p my-2">
-                  <a class="text-white text-underline" href="#"
+                  <a class="text-white footer-text" href="#"
                     >Nearly New & Used</a
                   >
                 </div>
                 <div class="p my-2">
-                  <a class="text-white text-underline" href="#">Aftercare</a>
+                  <a class="text-white footer-text" href="#">Aftercare</a>
                 </div>
                 <div class="p my-2">
-                  <a class="text-white text-underline" href="#">Contact Us</a>
+                  <a class="text-white footer-text" href="#">Contact Us</a>
                 </div>
               </div>
-              <div class="col-md my-1">
+              <div class="col-md col my-1">
                 <div class="p my-2">
                   <a class="text-white text-underline" href="#">Terms</a>
                 </div>
@@ -419,6 +546,7 @@
       </div>
     </div>
 
+    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
